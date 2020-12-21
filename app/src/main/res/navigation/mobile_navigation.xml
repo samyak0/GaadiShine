@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/nav_homepage"
-        android:name="com.example.myapplication.HomePage"
+        android:name="com.gaadishine.project.HomePage"
         android:label="@string/home"
         tools:layout="@layout/fragment_home_page" />
 
     <fragment
         android:id="@+id/nav_form"
-        android:name="com.example.myapplication.FormPage"
+        android:name="com.gaadishine.project.FormPage"
         android:label="@string/Booking_form"
         tools:layout="@layout/fragment_form" />
 
     <fragment
         android:id="@+id/nav_features"
-        android:name="com.example.myapplication.FeaturesPage"
+        android:name="com.gaadishine.project.FeaturesPage"
         android:label="@string/features"
         tools:layout="@layout/fragment_features" />
 
     <fragment
         android:id="@+id/nav_plans"
-        android:name="com.example.myapplication.PlansPage"
+        android:name="com.gaadishine.project.PlansPage"
         android:label="@string/plans"
         tools:layout="@layout/fragment_plans" />
 
     <fragment
         android:id="@+id/nav_about_us"
-        android:name="com.example.myapplication.AboutPage"
+        android:name="com.gaadishine.project.AboutPage"
         android:label="@string/about_us"
         tools:layout="@layout/fragment_aboutus" />
 </navigation>

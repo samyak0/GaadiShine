@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.gaadishine.project;
 
 import org.junit.Test;
 

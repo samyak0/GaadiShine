@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.gaadishine.project;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -12,14 +12,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import java.util.Objects;
-
-public class FeaturesPage extends Fragment {
+public class PlansPage extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_features, null);
+        return inflater.inflate(R.layout.fragment_plans, null);
     }
 
     @Override

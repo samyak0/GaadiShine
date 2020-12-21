@@ -1,8 +1,6 @@
-package com.example.myapplication;
+package com.gaadishine.project;
 
-import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,13 +9,15 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
-public class AboutPage extends Fragment {
+public class HomePage extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_aboutus, null);
+        return inflater.inflate(R.layout.fragment_home_page, null);
     }
 
     @Override
@@ -28,13 +28,15 @@ public class AboutPage extends Fragment {
         Drawable background = backgroundimage.getBackground();
         background.setAlpha(99);
 
-        view.findViewById(R.id.copyright_container).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.bookNow).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent viewIntent =
-                        new Intent("android.intent.action.VIEW",
-                                Uri.parse("https://evrenglobalsolutions.com"));
-                startActivity(viewIntent);
+                Fragment fragment = null;
+                fragment = new FormPage();
+                FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.nav_host_fragment, fragment);
+                fragmentTransaction.commit();
             }
         });
     }
