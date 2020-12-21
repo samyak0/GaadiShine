@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "387817321345",
+    "firebase_url": "https://carwash-form-default-rtdb.firebaseio.com",
+    "project_id": "carwash-form",
+    "storage_bucket": "carwash-form.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387817321345:android:7c4c4103c33eba29dd6e80",
+        "android_client_info": {
+          "package_name": "com.example.carwashform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387817321345-fklas5c0i6m29di90uvj3r6f6itj5b0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIQUCXU4YF-hc053E4GeNas6H5w_A8Rag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387817321345-fklas5c0i6m29di90uvj3r6f6itj5b0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387817321345:android:9a8e648144a715d0dd6e80",
+        "android_client_info": {
+          "package_name": "com.example.gaadishine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387817321345-fklas5c0i6m29di90uvj3r6f6itj5b0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIQUCXU4YF-hc053E4GeNas6H5w_A8Rag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387817321345-fklas5c0i6m29di90uvj3r6f6itj5b0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387817321345:android:695ce244806ca364dd6e80",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387817321345-fklas5c0i6m29di90uvj3r6f6itj5b0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIQUCXU4YF-hc053E4GeNas6H5w_A8Rag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387817321345-fklas5c0i6m29di90uvj3r6f6itj5b0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387817321345:android:257215191393840bdd6e80",
+        "android_client_info": {
+          "package_name": "com.example.mytest1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387817321345-fklas5c0i6m29di90uvj3r6f6itj5b0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIQUCXU4YF-hc053E4GeNas6H5w_A8Rag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387817321345-fklas5c0i6m29di90uvj3r6f6itj5b0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

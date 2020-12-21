@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car5"
+    android:backgroundTint="#152238"
+    android:backgroundTintMode="add"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/Booking_form"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/namehint"
+            android:textColorHint="@color/white"
+            app:boxStrokeColor="@color/red"
+            app:boxStrokeWidth="2dp"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/red">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/red"
+                android:textColor="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/mobileField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/mobile_number_hint"
+            android:textColorHint="@color/white"
+            app:boxStrokeColor="@color/red"
+            app:boxStrokeWidth="2dp"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/red">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="10"
+                android:shadowColor="@color/red"
+                android:textColor="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addressField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/addresshint"
+            android:textColorHint="@color/white"
+            app:boxStrokeColor="@color/red"
+            app:boxStrokeWidth="2dp"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/red">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/red"
+                android:textColor="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/dateField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/datehint"
+            android:textColorHint="@color/white"
+            app:boxStrokeColor="@color/red"
+            app:boxStrokeWidth="2dp"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/red">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:shadowColor="@color/red"
+                android:textColor="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/timeField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/timehint"
+            android:textColorHint="@color/white"
+            app:boxStrokeColor="@color/red"
+            app:boxStrokeWidth="2dp"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/red">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:shadowColor="@color/red"
+                android:textColor="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/serviceField"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/service"
+            android:textColorHint="@color/white"
+            app:boxBackgroundColor="@color/trans"
+            app:boxStrokeColor="@color/red"
+            app:boxStrokeWidth="2dp"
+            app:endIconTint="@color/white"
+            app:hintTextColor="@color/red">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoComplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:backgroundTint="@color/trans"
+                android:inputType="none"
+                android:textColor="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="12dp"-->
+        <!--                android:text="@string/name"-->
+        <!--                android:textAllCaps="true"-->
+        <!--                android:textColor="@color/red"-->
+        <!--                android:textSize="14sp"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/name"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginLeft="8dp"-->
+        <!--                android:layout_marginRight="8dp"-->
+        <!--                android:backgroundTint="@color/white"-->
+        <!--                android:hint="@string/namehint"-->
+        <!--                android:inputType="text"-->
+        <!--                android:shadowColor="@color/white"-->
+        <!--                android:singleLine="true"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textColorHint="@color/grey" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="12dp"-->
+        <!--                android:text="@string/mobile_number"-->
+        <!--                android:textAllCaps="true"-->
+        <!--                android:textColor="@color/red"-->
+        <!--                android:textSize="14sp"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/mobile"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginLeft="8dp"-->
+        <!--                android:layout_marginRight="8dp"-->
+        <!--                android:backgroundTint="@color/white"-->
+        <!--                android:hint="@string/numberhint"-->
+        <!--                android:inputType="number"-->
+        <!--                android:maxLength="10"-->
+        <!--                android:shadowColor="@color/white"-->
+        <!--                android:singleLine="true"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textColorHint="@color/grey" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="12dp"-->
+        <!--                android:text="@string/address"-->
+        <!--                android:textAllCaps="true"-->
+        <!--                android:textColor="@color/red"-->
+        <!--                android:textSize="14sp"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/address"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginLeft="8dp"-->
+        <!--                android:layout_marginRight="8dp"-->
+        <!--                android:backgroundTint="@color/white"-->
+        <!--                android:hint="@string/addresshint"-->
+        <!--                android:imeOptions="actionDone"-->
+        <!--                android:inputType="text"-->
+        <!--                android:shadowColor="@color/white"-->
+        <!--                android:singleLine="false"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textColorHint="@color/grey" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="12dp"-->
+        <!--                android:text="@string/date"-->
+        <!--                android:textAllCaps="true"-->
+        <!--                android:textColor="@color/red"-->
+        <!--                android:textSize="14sp"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/date"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginLeft="8dp"-->
+        <!--                android:layout_marginRight="8dp"-->
+        <!--                android:backgroundTint="@color/white"-->
+        <!--                android:focusable="false"-->
+        <!--                android:hint="@string/datehint"-->
+        <!--                android:shadowColor="@color/white"-->
+        <!--                android:singleLine="true"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textColorHint="@color/grey" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="12dp"-->
+        <!--                android:text="@string/time"-->
+        <!--                android:textAllCaps="true"-->
+        <!--                android:textColor="@color/red"-->
+        <!--                android:textSize="14sp"-->
+        <!--                android:textStyle="bold" />-->
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/time"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_marginLeft="8dp"-->
+        <!--                android:layout_marginRight="8dp"-->
+        <!--                android:backgroundTint="@color/white"-->
+        <!--                android:focusable="false"-->
+        <!--                android:hint="@string/timehint"-->
+        <!--                android:shadowColor="@color/white"-->
+        <!--                android:singleLine="true"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textColorHint="@color/grey" />-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+
+        <!--                <TextView-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="12dp"-->
+        <!--                    android:text="@string/service"-->
+        <!--                    android:textAllCaps="true"-->
+        <!--                    android:textColor="@color/red"-->
+        <!--                    android:textSize="14sp"-->
+        <!--                    android:textStyle="bold" />-->
+
+        <!--                <Spinner-->
+        <!--                    android:id="@+id/spinner"-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginLeft="8dp"-->
+        <!--                    android:layout_marginTop="8dp"-->
+        <!--                    android:layout_marginRight="8dp" />-->
+        <!--            </LinearLayout>-->
+
+        <Button
+            android:id="@+id/bookNow"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/book_now"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

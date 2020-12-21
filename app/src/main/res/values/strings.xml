@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GaadiShine</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Booking_form">Booking form</string>
+    <string name="name">Name:</string>
+    <string name="mobile_number">Mobile Number:</string>
+    <string name="address">Address:</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="service">Service</string>
+    <string name="book_now">Book now</string>
+    <string name="timehint">Time</string>
+    <string name="datehint">Date</string>
+    <string name="addresshint">Address</string>
+    <string name="numberhint">Number</string>
+    <string name="namehint">Name</string>
+    <string name="drawer_form">Form</string>
+    <string name="mobile_number_hint">Mobile Number</string>
+
+    <string-array name="form_contents">
+        <item>Exterior Foam Car Wash</item>
+        <item>Complete Car Wash</item>
+        <item>Complete Car Wash with Rubbing and Polishing</item>
+    </string-array>
+    <string name="title_activity_form">Form</string>
+    <string name="booking">Booking</string>
+    <string name="home">Home</string>
+    <string name="features">Features</string>
+    <string name="plans">Plans</string>
+    <string name="about_us">About us</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homepage"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_form"
+            android:title="@string/Booking_form" />
+        <item
+            android:id="@+id/nav_features"
+            android:title="@string/features" />
+        <item
+            android:id="@+id/nav_plans"
+            android:title="@string/plans" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="@string/about_us" />
+    </group>
+</menu>
